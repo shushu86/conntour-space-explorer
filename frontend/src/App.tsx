@@ -65,7 +65,7 @@ const App: React.FC = () => {
         <div className="main-content">
           <Flex vertical gap="large" align='center'>
             <Flex justify='center'  align='center'  gap='large' className="header-container">
-              <div className="responsive-title">Contour - NASA Image Search</div>
+              <div className="responsive-title">Conntour - NASA Image Search</div>
               <SearchBar setImages={setImages} setSearchHistory={setSearchHistory} searchHistory={searchHistory || []} searchFromHistory={searchFromHistory} />
             </Flex>
             <SearchResultsItemsList images={images} />          
