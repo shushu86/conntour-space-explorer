@@ -1,0 +1,48 @@
+.images-grid {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 16px 0px 16px;
+  margin: 0 auto;
+}
+
+.image-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.no-images-container {
+  height: 100vh;
+}
+
+.no-images-message {
+  font-size: 4rem;
+  color: white;
+  border: 1px solid rgb(34 114 120 / 80%);
+  padding: 20px;
+  border-radius: 8px;
+} 
+
+.ant-pagination-item-link {
+  color: rgb(255 255 255) !important;
+}
+
+.ant-pagination-item-ellipsis {
+  color: rgb(255 255 255) !important;
+}
+
+.ant-pagination-item:not(.ant-pagination-item-active):hover {
+  background-color: rgb(255 255 255) !important;
+}
+
+.ant-pagination-item-link-icon {
+  color: rgb(255 255 255) !important;
+}
+
+@media (max-width: 768px) {
+  .images-grid {
+    padding: 0 8px 0px 8px;
+    max-width: 100%;
+  }
+}
